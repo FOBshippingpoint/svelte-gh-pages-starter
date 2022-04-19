@@ -1,6 +1,7 @@
 import ghpages from "gh-pages";
 import fs from "fs";
 
+// Because relative links are not supported by GitHub Pages, we need to replace「="/」 with 「="./」
 const indexHtml = fs.readFileSync("./dist/index.html", "utf8");
 
 const regex = /="\//g;

@@ -2,7 +2,18 @@
 
 A svelte start template for GitHub pages.
 
-## Dev
+## Getting Started
+
+You can fork this repository or simply use [degit](https://github.com/Rich-Harris/degit).
+
+## Libraries & Tools
+
+- Svelte
+- Vite
+- pnpm
+- gh-pages
+
+## Development
 
 ```sh
 pnpm dev
